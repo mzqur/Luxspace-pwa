@@ -43,7 +43,6 @@ function Hero(){
             />
             </div>
         </div>
-        {/* Modal Logic Controller */}
         {showModal && <Modal handleShowModal={handleShowModal}/>}
         </section>
     )
